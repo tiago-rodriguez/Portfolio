@@ -14,17 +14,22 @@ const AboutMe = () => {
             Sobre mi
           </p>
         </div>
-        <p className="text-xl mt-20">
-          Soy un full stack developer con afinidad por el FrontEnd. Mis primeros
-          meses en la universidad me llevaron por el camino de la programación.
-          <br></br>
-          Desde hace ya varios años el entusiasmo de aprender junto con el deseo
-          de perfeccionar mis habilidades y ampliar mis conocimientos en este
-          mundo me impulsaron continuamente en la idea de instruirme en nuevas
-          tecnologías.<br></br>
-          Estoy entusiasmado de seguir creciendo, afrontar nuevos desafíos y
-          aportar conocimientos.
-        </p>
+        <div className="text-xl mt-10 space-y-4">
+          <p>
+            Soy un desarrollador Full Stack con una fuerte afinidad por el
+            Front-End. Mis primeros meses en la universidad despertaron mi
+            pasión por el mundo de la programación.
+          </p>
+          <p>
+            Desde entonces, mi entusiasmo por aprender y perfeccionar mis
+            habilidades me ha impulsado a explorar continuamente nuevas
+            tecnologías y desafíos.
+          </p>
+          <p>
+            Estoy listo para afrontar nuevos retos, aportar mis conocimientos y
+            seguir creciendo profesionalmente.
+          </p>
+        </div>
       </div>
     </div>
   );

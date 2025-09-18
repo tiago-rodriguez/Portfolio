@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import ParticlesBackground from "./components/ParticlesBackground";
 import Timeline from "./components/Timeline";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Proyects />
       <Experience />
       <Contact />
+      <Footer />
     </>
   );
 }

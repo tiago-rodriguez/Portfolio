@@ -25,8 +25,8 @@ const Home = () => {
           </h2>
 
           <p className="text-gray-500 py-4 max-w-md">
-            Hola me llamo Tiago Rodriguez y te invito a ver mi portfolio donde
-            muestro algunos de mis proyectos y hablo un poco de mi vida.
+            Soy Tiago Rodriguez, Desarrollador Full Stack. Te invito a explorar
+            mis proyectos y conocer las tecnologías con las que trabajo
           </p>
 
           <div>
