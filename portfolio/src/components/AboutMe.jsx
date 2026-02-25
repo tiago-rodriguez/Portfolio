@@ -4,17 +4,20 @@ const AboutMe = () => {
   return (
     <div
       name="Sobre mi"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="">
-          <br></br>
-
-          <p className="text-4xl font-bold inline border-b-4 border-cyan-500 mt-80">
+        <div className="pb-8 pt-20 sm:pt-0">
+          {" "}
+          {/* Padding superior en móvil */}
+          <p className="text-4xl font-bold inline border-b-4 border-cyan-500">
             Sobre mi
           </p>
         </div>
-        <div className="text-xl mt-10 space-y-4">
+
+        <div className="text-xl mt-10 space-y-6">
+          {" "}
+          {/* Más espacio entre párrafos */}
           <p>
             Soy un desarrollador Full Stack con una fuerte afinidad por el
             Front-End. Mis primeros meses en la universidad despertaron mi

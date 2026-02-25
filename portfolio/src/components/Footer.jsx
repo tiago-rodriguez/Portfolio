@@ -30,11 +30,6 @@ const Footer = () => {
           <p>Todos los derechos reservados.</p>;
         </div>
 
-        <div className="text-center">
-          <p className="font-semibold text-gray-300">Construido con:</p>
-          <p>React, Tailwind CSS, JavaScript & mas.</p>
-        </div>
-
         <div className="flex space-x-6">
           {socialLinks.map((link, index) => (
             <a

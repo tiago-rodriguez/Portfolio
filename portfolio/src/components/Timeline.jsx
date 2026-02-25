@@ -48,21 +48,6 @@ const Timeline = () => {
               contentStyle={contentStyle}
               contentArrowStyle={contentArrowStyle}
               iconStyle={{ background: "#000000", color: "#fff" }}
-              date="2020 - Actualidad"
-              icon={<FaBook />}
-            >
-              <h3 className="text-white font-bold">Inicié la Universidad</h3>
-              <p className="text-gray-300 font-medium">
-                Inicié mi carrera de Licenciatura en Sistemas en la Universidad
-                de Buenos Aires.
-              </p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              contentStyle={contentStyle}
-              contentArrowStyle={contentArrowStyle}
-              iconStyle={{ background: "#000000", color: "#fff" }}
               date="2023-2024"
               icon={<FaCertificate />}
             >
@@ -92,6 +77,21 @@ const Timeline = () => {
                 Ingresé durante 3 meses como pasante para una empresa de
                 Inglaterra. Mi objetivo era optimizar el código para una mayor
                 fluidez del sitio web y mejorar la visualización.
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              contentStyle={contentStyle}
+              contentArrowStyle={contentArrowStyle}
+              iconStyle={{ background: "#000000", color: "#fff" }}
+              date="2025 - Actualidad"
+              icon={<FaBook />}
+            >
+              <h3 className="text-white font-bold">Inicié la Universidad</h3>
+              <p className="text-gray-300 font-medium">
+                Inicié mi carrera, Licenciatura en gestión de tecnología de la
+                información, en la universidad Argentina de la Empresa.
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
