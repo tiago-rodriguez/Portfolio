@@ -138,7 +138,10 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-cyan-500 p-2 inline">
+          <p
+            data-aos="fade-up"
+            className="text-4xl font-bold border-b-4 border-cyan-500 p-2 inline"
+          >
             Experiencia
           </p>
           <p className="py-6">
@@ -150,6 +153,8 @@ const Experience = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
+              data-aos="fade-down"
+              data-aos-delay={`${id * 100}`}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} bg-black/40`} // Agregué un fondo sutil bg-black/40
             >
               <img src={src} alt="" className="w-20 mx-auto" />

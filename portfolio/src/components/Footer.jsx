@@ -27,7 +27,7 @@ const Footer = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
         <div className="text-center md:text-left">
           <p>&copy; {anioVigente} Tiago Rodriguez</p>
-          <p>Todos los derechos reservados.</p>;
+          <p>Todos los derechos reservados.</p>
         </div>
 
         <div className="flex space-x-6">

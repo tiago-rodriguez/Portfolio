@@ -1,3 +1,7 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Importamos los estilos de las animaciones
+
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import SocialLinks from "./components/SocialLinks";
@@ -10,6 +14,14 @@ import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 100,
+    });
+  }, []);
+
   return (
     <>
       <div>
@@ -18,7 +30,6 @@ function App() {
       </div>
       <SocialLinks />
       <Home />
-
       <AboutMe />
       <Timeline />
       <Proyects />

@@ -52,6 +52,8 @@ const Proyects = () => {
           {portfolios.map(({ id, src, code, nombre, demo }) => (
             <div
               key={id}
+              data-aos="fade-up"
+              data-aos-delay={`${id * 100}`}
               className="shadow-md shadow-cyan-600 rounded-lg duration-200 hover:scale-105 flex flex-col justify-between"
             >
               <img
